@@ -14,6 +14,8 @@
 		5F13B8481D88EF76003F2394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F13B8471D88EF76003F2394 /* Assets.xcassets */; };
 		5F13B84B1D88EF76003F2394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F13B8491D88EF76003F2394 /* LaunchScreen.storyboard */; };
 		5F13B8561D88EF76003F2394 /* XCMarqueeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13B8551D88EF76003F2394 /* XCMarqueeViewTests.m */; };
+		5F13B8681D88F232003F2394 /* RaceImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F13B8651D88F232003F2394 /* RaceImage.gif */; };
+		5F13B8691D88F232003F2394 /* XCMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13B8671D88F232003F2394 /* XCMarqueeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		5F13B8511D88EF76003F2394 /* XCMarqueeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCMarqueeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F13B8551D88EF76003F2394 /* XCMarqueeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCMarqueeViewTests.m; sourceTree = "<group>"; };
 		5F13B8571D88EF76003F2394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F13B8651D88F232003F2394 /* RaceImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RaceImage.gif; sourceTree = "<group>"; };
+		5F13B8661D88F232003F2394 /* XCMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMarqueeView.h; sourceTree = "<group>"; };
+		5F13B8671D88F232003F2394 /* XCMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMarqueeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		5F13B83A1D88EF76003F2394 /* XCMarqueeView */ = {
 			isa = PBXGroup;
 			children = (
+				5F13B8651D88F232003F2394 /* RaceImage.gif */,
+				5F13B8661D88F232003F2394 /* XCMarqueeView.h */,
+				5F13B8671D88F232003F2394 /* XCMarqueeView.m */,
 				5F13B83E1D88EF76003F2394 /* AppDelegate.h */,
 				5F13B83F1D88EF76003F2394 /* AppDelegate.m */,
 				5F13B8411D88EF76003F2394 /* ViewController.h */,
@@ -194,6 +202,7 @@
 				5F13B84B1D88EF76003F2394 /* LaunchScreen.storyboard in Resources */,
 				5F13B8481D88EF76003F2394 /* Assets.xcassets in Resources */,
 				5F13B8461D88EF76003F2394 /* Main.storyboard in Resources */,
+				5F13B8681D88F232003F2394 /* RaceImage.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F13B8691D88F232003F2394 /* XCMarqueeView.m in Sources */,
 				5F13B8431D88EF76003F2394 /* ViewController.m in Sources */,
 				5F13B8401D88EF76003F2394 /* AppDelegate.m in Sources */,
 				5F13B83D1D88EF76003F2394 /* main.m in Sources */,
@@ -402,6 +412,7 @@
 				5F13B85C1D88EF76003F2394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F13B85D1D88EF76003F2394 /* Build configuration list for PBXNativeTarget "XCMarqueeViewTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +421,7 @@
 				5F13B85F1D88EF76003F2394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
